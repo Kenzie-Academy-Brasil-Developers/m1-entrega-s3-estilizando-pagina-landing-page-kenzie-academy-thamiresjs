@@ -39,27 +39,276 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     font-family: sans-serif;
     list-style: none;
 }
-img{
-    max-width: 800px;
+
+h2{
+    font-family: "Montserrat";
 }
+img{
+    max-width: 100px;
+}
+
+
 div.flex{
     display: flex;
 }
+
+
 div.full-container{
     width: 100%;
     max-width: 1850px;
     margin:0 auto;
 }
+
+
 div.large-container{
     width: 100%;
     max-width: 1170px;
     margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    
 }
 div.container{
     width: 100%;
     max-width: 1140px;
     margin:0 auto;
+    
 }
+
+div.large-container img {
+    width: 50px;
+   
+}
+
+div.large-container figcaption {
+    color: #00043e;
+
+   
+   
+}
+
+div.large-container ul li a {
+    font-size: 13px;
+    font-family: 'Montserrat';
+    color: #ffffff; 
+    text-decoration: none;
+    letter-spacing: 1.6px;
+}
+
+.large-container li{
+
+    display: inline;
+    text-align: right;
+    margin: 10px;
+}
+
+.secaoDestaque {
+    background-image: url(/assets/img/background-destaque.webp);
+    padding: 10%;
+    background-size: cover;
+}
+
+.secaoCursos article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionCursos article ul{
+
+    width: 80%;
+    height: 400px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+}
+.secaoCursos li{
+     height: 50%;
+     width: 33.333%
+
+}
+section.secaoDestaque h2 {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-size: 63px;
+    font-weight: normal;
+    text-align: center;
+}
+
+section.secaoDestaque p {
+    font-size: 21px;
+    font-family: 'Lato';
+    color: #ffffff;
+    text-align: center;
+}
+
+div.secaoDestaqueFormulario {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+div.secaoDestaqueFormulario input {
+    padding: 5px;
+    width: 400px;
+    border-radius: 2px;
+    border: 1px solid #007aff;
+    margin-right: -4px;
+}
+
+div.secaoDestaqueFormulario button {
+    padding: 5.5px;
+    font-size: 14px;
+    background-color: #007aff;
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+section.secaoSobre {
+    margin-top: 5%;
+    margin-left: 20%;
+    display: inline-block;
+    width: 70%;
+    justify-content: center;
+}
+
+.flex{
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div.flex-col {
+    max-width: 550px;
+    
+       
+}
+
+div.flex-col p {
+    font-family: 'Lato';
+    font-size: 19px;
+    color: #303030;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    max-width: 800px;
+   
+    
+  
+}
+
+div.flex-col h2 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: #303030;
+    
+    
+}
+
+div.flex-col button{
+    color: #303030;
+    background-color: #FFFFFF;
+    border: 1px solid #818181;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+div.flex-col span {
+    font-family: 'Lato';
+    font-size: 19px;
+    color: #818181; 
+}
+
+div.flex-col button:hover {
+    background-color: #007aff;
+    color: white;
+    border: 1px solid #007aff;
+    transition: all 0.5s ease-in;
+}
+
+div.flex-col img {
+    max-width: 300px;
+}
+
+div.flex-col figcaption {
+    color: #FFFFFF;
+}
+
+div.flex-col ul {
+    margin-top: 60px;
+}
+
+div.flex-col ul li {
+    color: #818181; 
+    font-size: 19px;
+    font-family: 'Lato';
+    list-style-type: disc;
+    margin-left: 25% ;
+    margin-right: 25%;
+    
+}
+
+div.flex-col2 {
+    background-color: #f6f6f6;
+    padding: 50px;
+    color: #f6f6f6;
+}
+
+.flex-col span::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+div.flex-col2 img {
+    max-width: 120px;
+}
+
+.flex-col2 figcaption{
+    opacity: 0;
+}
+
+section.secaoCursos {
+    margin-top: 50px;
+}
+
+section.secaoCursos h2 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: #303030; 
+    text-align: center;
+
+}
+
+section.secaoCursos h3 {
+    font-family: 'Lato';
+    font-size: 19px;
+    color: #303030; 
+}
+
+section.secaoCursos p {
+    font-size: 15px;
+    color: #818181;
+}
+
+section.secaoCursos ul li img {
+    max-width: 80px;
+}
+
+.pCurso{
+    text-align: center;
+    margin: 15px;
+}
+
+
 /* GERAL */
   
 /* HTML */
@@ -67,15 +316,45 @@ html{}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+
+    background-color: #ffffff;
+}
 /* BODY */
   
 /* HEADER */
-header{}
+header{
+
+    background-color: #00043e;
+    height: 60px;
+}
 /* HEADER */
   
 /* FOOTER */
-footer{}
+
+footer{
+    text-align: center;
+}
+
+footer img {
+    max-width: 20px;
+
+}
+
+footer p{
+    color: #818181;
+}
+
+footer p a {
+    color: #007aff;
+    text-decoration: none;
+}
+
+footer img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 /* FOOTER */
 
 /* INICIAL */
@@ -85,12 +364,27 @@ main{}
 /* EXTRAS */
 
 /* para estilizar a scrollbar */
-::-webkit-scrollbar{}
+::-webkit-scrollbar{
+    width: 10px;
+}
 ::-webkit-scrollbar-button{}
+
 ::-webkit-scrollbar-track{}
-::-webkit-scrollbar-track-piece{}
-::-webkit-scrollbar-thumb{}
+
+::-webkit-scrollbar-track-piece{
+    background-color: #ffffff;
+    border-left: 1px solid #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(212, 235, 243);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #007aff;
+}
+
 ::-webkit-scrollbar-corner{}
+
 ::-webkit-resizer{}
 
 /* EXTRAS */
